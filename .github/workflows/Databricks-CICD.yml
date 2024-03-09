@@ -191,7 +191,7 @@ jobs:
         
     # Login to Azure
     - name: Login via Az module
-      uses: azure/login@v1.1
+      uses: azure/actions/login@v1.1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
         # set this if you will be using PowerShell
@@ -320,7 +320,7 @@ jobs:
         
     # Login to Azure
     - name: Login via Az module
-      uses: azure/login@v1.1
+      uses: azure/actions/login@v1.1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
         # set this if you will be using PowerShell
@@ -449,7 +449,7 @@ jobs:
         
     # Login to Azure
     - name: Login via Az module
-      uses: azure/login@v1.1
+      uses: azure/actions/login@v1.1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
         # set this if you will be using PowerShell
